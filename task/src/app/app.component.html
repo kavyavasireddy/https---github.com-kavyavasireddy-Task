@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Angular Task</h1>
+<form  (ngSubmit)="submit()">
+   <label for="First">FirstName</label>
+   <input type="text" class="form-control" [(ngModel)]="firstName" (change)="validateInput(firstName)"/><br><br>
+   <label for="last">LastName</label>
+   <input type="text"  class="form-control" [(ngModel)]="lastName" /><br><br>
+       
+   <button  type="submit">Submit</button>
+            </form>
+           </div>
+
+
+            
+            
+
+            
